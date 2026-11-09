@@ -1,0 +1,32 @@
+{
+  "name": "google-flow-mcp",
+  "version": "1.0.0",
+  "description": "Comprehensive Model Context Protocol (MCP) server for Google Flow (flow.google.com) - Full AI Filmmaking & Video Production Studio",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "google-flow-mcp": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/test/studio-test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-flow",
+    "veo",
+    "omni",
+    "ai-video",
+    "video-studio",
+    "scene-builder",
+    "filmmaking"
+  ],
+  "author": "Google Flow MCP Community",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.2"
+  }
+}
